@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="input form">
+    <meta name="author" content="Opeyemi Ijadele">
+    <link rel="stylesheet" href="./style.css">
+    <title>Input form</title>
+</head>
+<body>
+    <div class="all">
+    <h1>Contact form</h1>
+
+    <p>Please fill in your information
+        and we'll be sending your order in no time.
+    </p>
+
+    <form action="">
+       
+            <div id="name">
+        <label for="name">Your Name</label>
+        <input id="one" type="text" placeholder="First Name">
+        <input id="two" type="text" placeholder="Last Name">
+        </div>
+
+         <div id="email">
+            <label for="email">Your Email</label>
+            <input id="mail" type="email" placeholder="e.g. hello@contact.net">
+        </div>
+
+            <div id="phone">
+            <label for="phone">Phone*</label>
+            <input id="no1" type="number" placeholder="###"> <input id="no2" type="number" placeholder="###"> <input id="no3" type="number" placeholder="####">
+             </div>
+
+            <div id="message">
+                 <label for="message">Message Subject*</label>
+                 <select name="message" id="other">
+                <option value="other">other</option>
+            </select>
+            </div>
+
+            <div id="fulness">
+            <label for="Message" id="info">Message*</label> <br>
+            <textarea name="message" id="area" cols="30" rows="5"></textarea>
+            </div>
+
+             <div id="verify">
+            <label for="verify">Verification*</label>
+            <input id="robot" type="checkbox">
+            <label id="robot" for="robot">I'm not a robot</label>
+            </div>
+
+            <div id="border"></div>
+                 <button>
+                         submit form
+                </button>
+
+        </div>
+    </form>
+</body>
+</html>

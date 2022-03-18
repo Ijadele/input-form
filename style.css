@@ -1,0 +1,99 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    background-color: rgb(53, 178, 236);
+    font-size: 12px;
+}
+
+.all{
+    margin: 30px 70px;
+}
+
+#name{
+    margin-top: 50px;
+}
+
+input{
+    margin-left: 53px;
+    padding: 5px;
+}
+
+#mail{
+    width: 353px;
+}
+
+#no1{
+    width: 100px;
+    margin-left: 73px;
+}
+
+#no2{
+    width: 100px;
+    margin-left: 10px;
+}
+
+#no3{
+    width: 100px;
+    margin-left: 10px;
+}
+
+#two{
+    margin-left: 10px;
+}
+
+#email{
+    margin-top: 20px;
+}
+
+#phone{
+    margin-top: 20px;
+}
+
+#message{
+    margin-top: 20px;
+}
+
+#other{
+    margin-left: 20px;
+    width: 238px;
+    padding: 5px;
+}
+
+#fulness{
+    margin-top: 20px;
+}
+
+#area{
+    margin-left: 115px;
+    height: 60px;
+    width: 368px;
+}
+
+#verify{
+    margin-top: 20px;
+}
+
+#robot{
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+#border{
+    border-bottom: 1px solid #ffffff;
+    margin-top: 40px;
+    width: 480px;
+}
+
+button{
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #ffffff;
+    background-color: rgb(53, 178, 236);
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
